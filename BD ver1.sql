@@ -1,7 +1,7 @@
 create database TLinos;
 use Tlinos;
 create table animales(
-ID int(10) primary key,
+ID int auto_increment primary key,
 nombre varchar(85),
 especie varchar(50),
 razacolor varchar(40),
