@@ -12,7 +12,7 @@ fecharescate date,
 adoptado boolean
 );
 create table usuarios(
-ID int(10) primary key,
+ID int auto_increment primary key,
 nombrecompleto varchar(85),
 usuario varchar(20),
 contraseña varchar(20),
