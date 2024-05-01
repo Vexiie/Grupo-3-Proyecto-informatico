@@ -17,12 +17,12 @@ nombrecompleto varchar(85),
 usuario varchar(20),
 contraseña varchar(20),
 DNI int(8),
-descripcion int(150),
-localidad int(50),
+descripcion varchar(150),
+localidad varchar(50),
 animalfav varchar(50)
 );
 create table adopciones(
-ID int(10) primary key,
+ID int auto_increment primary key,
 ID_animal int(10),
 ID_user int(10),
 fecha_adopcion date,
