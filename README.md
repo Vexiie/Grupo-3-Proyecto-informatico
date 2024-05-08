@@ -1,2 +1,2 @@
 # Grupo-3-Proyecto-informatico
-El mejor grupo del mundo alalalalalala
+When haces tus momos en el README.md
